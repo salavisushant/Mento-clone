@@ -26,7 +26,7 @@ export const Home = () => {
     const showData = async() => {
         try{
             dispatch(getTodoLoading());
-            const data = await fetch(`  http://localhost:3001/posts`)
+            const data = await fetch(`http://localhost:3001/posts`)
             .then((d) => d.json());
             dispatch(getTodoSuccess(data));
             console.log(data);
@@ -38,7 +38,7 @@ export const Home = () => {
 
     return (
         <div>
-            
+
         </div>
     )
 }
