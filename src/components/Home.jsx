@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from "react-redux";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
+import "./home.css";
 
 
 import {
@@ -38,7 +39,21 @@ export const Home = () => {
 
     return (
         <div>
-
+            <div style={{display: 'flex'}}>
+                <div>
+                    <img src="https://www.mento.co.in/assets/logo-e65920660caecc5be1d6b1757278bcb5745b83cfbf08d0dcdc5cd30bead06334.svg" alt=""/>
+                </div>
+                <div className="rightNavDiv">
+                     
+                </div>
+                <div>
+                    {
+                        todos.map((e) => (
+                            <div></div>
+                        ))
+                    }
+                </div>
+            </div>
         </div>
     )
 }
