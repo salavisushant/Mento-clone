@@ -71,7 +71,8 @@ export const Home = () => {
             <div className="gridDiv">
                 {
                     todos.map((e) => (
-                        <div className="infoDiv">
+                        <Link style={{textDecoration: 'none',color: '#000000'}} to={`/posts/${e.id}`}>
+                             <div className="infoDiv">
                             <img className="imgDiv" src={e.image} alt="" />
                             <p className="title1">{e.title}</p>
                             <div style={{display:'flex'}}>
@@ -86,6 +87,7 @@ export const Home = () => {
                                 </div>
                             </div>
                         </div>
+                        </Link>
                     ))
                 }
             </div>

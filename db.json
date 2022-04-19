@@ -6,7 +6,8 @@
       "image": "https://openthemagazine.com/wp-content/uploads/2016/01/19998.ritesh.jpg",
       "author": "RITESH AGARWAL",
       "comapany":"FOUNDER OF OYO ROOMS",
-      "video":9
+      "video":9,
+      "quote":"The World's Youngest Billionaire About A Career In Entrepreneurship"
     },
      {
       "id": 2,
@@ -14,7 +15,8 @@
       "image": "https://static.toiimg.com/photo/70831128.cms",
       "author": "NITESH TIWARI",
       "comapany":"DIRECTOR DANGAL",
-      "video":15
+      "video":15,
+      "quote":"Nitesh Tiwari About A Career in Film-Making"
     },
      {
       "id": 3,
@@ -22,7 +24,8 @@
       "image": "https://www.socialketchup.in/wp-content/uploads/2020/01/biswa.jpg",
       "author": "BISWAPATI SARKAR",
       "comapany":"DIRECTOR, TVF",
-      "video":9
+      "video":9,
+      "quote":"Biswapati Sarkar About A Career in Creating Web-Series"
     },
      {
       "id": 4,
@@ -30,7 +33,8 @@
       "image": "https://filmfare.wwmindia.com/content/2019/jun/siddharthroykapurweb1561890093.jpg",
       "author": "SIDDHARTH ROY KAPUR",
       "comapany":"FILM PRODUCER",
-      "video":9
+      "video":9,
+      "quote":"Siddharth Roy Kapur About A Career in Film-Production"
     },
      {
       "id": 5,
@@ -38,7 +42,8 @@
       "image": "https://images.newindianexpress.com/uploads/user/imagelibrary/2020/8/25/w900X450/A_NEW_CHAPTER-.PNG?w=400&dpr=2.6",
       "author": "ALICIA SOUZA",
       "comapany":"ILLUSTRATOR",
-      "video":9
+      "video":9,
+      "quote":"Alicia Souza About A Career in Freelancing"
     },
      {
       "id": 6,
@@ -46,7 +51,8 @@
       "image": "https://www.nykaafashion.com/style-files/wp-content/uploads/2021/03/santoshi_1170x556.jpg",
       "author": "SANTOSHI SHETTY",
       "comapany":"FASHION BLOGGER",
-      "video":9
+      "video":9,
+      "quote":"India's Finest Fashion Blogger"
     },
      {
       "id": 7,
@@ -54,7 +60,8 @@
       "image": "data:image/jpeg;base64,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",
       "author": "SANJAY MANAKTALA",
       "comapany":"COMEDIAN",
-      "video":9
+      "video":9,
+      "quote":"Sanjay Manaktala About a Career in Stand-Up Comedy"
     },
      {
       "id": 8,
@@ -62,7 +69,8 @@
       "image": "https://static.toiimg.com/thumb/msid-78972020,imgsize-297493,width-400,resizemode-4/78972020.jpg",
       "author": "ARJUN KAMATH",
       "comapany":"PHOTOGRAPHER",
-      "video":9
+      "video":9,
+      "quote":"Arjun Kamath About a Career in Photography"
     },
      {
       "id": 9,
@@ -70,7 +78,8 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Saad_oct_2014_resize.jpg",
       "author": "SAAD KHAN",
       "comapany":"FOUNDER OF IMPROV",
-      "video":9
+      "video":9,
+      "quote":"India's Leading Improv Comedian"
     },
        {
       "id": 10,
@@ -78,7 +87,8 @@
       "image": "https://www.theindianwire.com/wp-content/uploads/2017/08/Raghu-Dixit-1200x720.jpg",
       "author": "GAURAV VAZ",
       "comapany":"ARTIST MANAGER",
-      "video":9
+      "video":9,
+      "quote":"India's Leading Artist Manager"
     },
        {
       "id": 11,
@@ -86,7 +96,8 @@
       "image": "https://pbs.twimg.com/media/DQL-kgJUIAAc_ld.jpg",
       "author": "SALONI KUKREJA",
       "comapany":"FOOD BLOGGER",
-      "video":7
+      "video":7,
+      "quote":"Saloni Kukreja About A Career in Food-Blogging"
     },
        {
       "id": 12,
@@ -94,7 +105,8 @@
       "image": "http://www.designyatra.com/events/wp-content/uploads/2018/07/15B-Vineeth-Vincent-1.jpg",
       "author": "VINEETH VINCENT",
       "comapany":"BEAT BOXER",
-      "video":9
+      "video":9,
+      "quote":"India's Leading BeatBoxer"
     },
        {
       "id": 13,
@@ -102,7 +114,8 @@
       "image": "https://i.ytimg.com/vi/SZLch2yKreo/maxresdefault.jpg",
       "author": "DARIUS SUNAWALA",
       "comapany":"RADIO JOCKEY",
-      "video":8
+      "video":8,
+      "quote":"India's Finest RJ About a Career in Radio"
     },
        {
       "id": 14,
@@ -110,15 +123,17 @@
       "image": "https://i.ytimg.com/vi/bRHJUmow-Fc/maxresdefault.jpg",
       "author": "RAKSHIT KEJRIWAL",
       "comapany":"ENTREPRENEUR",
-      "video":8
+      "video":8,
+      "quote":"Rakshit Kejriwal About a Career in Start-Ups"
     },
        {
       "id": 15,
-      "title": "How To Start Your Own Restau...",
+      "title": "How To Start Restaurant",
       "image": "https://outlookassets.s3.amazonaws.com/article/gallery/f42d3a976125b95e2934eda8bcc8d050.jpg",
       "author": "SAMEER/YASH",
-      "comapany":"CO-FOUNDERS, THE BOMBAY CANTEEN",
-      "video":8
+      "comapany":"THE BOMBAY CANTEEN",
+      "video":8,
+      "quote":"Founders of India's Number One Restaurant About A Career in the Restaurant Business"
     }
   ]
 }
