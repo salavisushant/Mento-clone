@@ -5,10 +5,11 @@ import "./home.css";
 
 
 import {
-    getTodoError,
-    getTodoLoading,
-    getTodoSuccess,
+    getDataError,
+    getDataLoading,
+    getDataSuccess,
 } from "../redux/Action";
+
 
 
 export const Home = () => {
@@ -26,34 +27,68 @@ export const Home = () => {
 
     const showData = async() => {
         try{
-            dispatch(getTodoLoading());
+            dispatch(getDataLoading());
             const data = await fetch(`http://localhost:3001/posts`)
             .then((d) => d.json());
-            dispatch(getTodoSuccess(data));
+            dispatch(getDataSuccess(data));
             console.log(data);
         } catch (err) {
-            dispatch(getTodoError(err));
+            dispatch(getDataError(err));
       }
     }
 
 
     return (
         <div>
-            <div style={{display: 'flex'}}>
+             <div style={{display: 'flex',marginTop:'1%'}}>
                 <div>
-                    <img src="https://www.mento.co.in/assets/logo-e65920660caecc5be1d6b1757278bcb5745b83cfbf08d0dcdc5cd30bead06334.svg" alt=""/>
+                    <img style={{height:'50px',marginLeft:'10px'}} src="https://www.mento.co.in/assets/logo-e65920660caecc5be1d6b1757278bcb5745b83cfbf08d0dcdc5cd30bead06334.svg" alt=""/>
                 </div>
                 <div className="rightNavDiv">
-                     
-                </div>
-                <div>
-                    {
-                        todos.map((e) => (
-                            <div></div>
-                        ))
-                    }
+                     <form>
+                        <input type="search" placeholder="Topic name, Influences name"/>
+                        <button type="submit">Search</button>
+                    </form>
+                        <button className="btn1">ALL TOPICS</button>
+                        <button className="btn1">ABOUT</button>
+                        <button className="btn2">LOGIN</button>
                 </div>
             </div>
-        </div>
+            <div className="vdoDiv">
+                <div style={{marginLeft:"10%"}}>
+                    <p className="headName">Learn From India's Biggest Mentors</p>
+                    <p className="scrollName">SCROLL DOWN TO DISCOVE LEARN FROM THE BEST OVER 350+ VIDEO LESSONS GET SIGNED CERTIFICATES</p>
+                </div>
+                <div>
+                    <iframe  className="iFrame"
+                        src="https://d1tthr7pv14hhy.cloudfront.net/Images/general/background1.mp4" alt="youtube">
+                        
+                    </iframe>
+                    
+                </div>
+            </div>
+            <p className="lessTag">ALL LESSONS</p>
+            <div className="gridDiv">
+                {
+                    todos.map((e) => (
+                        <div className="infoDiv">
+                            <img className="imgDiv" src={e.image} alt="" />
+                            <p className="title1">{e.title}</p>
+                            <div style={{display:'flex'}}>
+                                <img className='roundImg' src={e.image} alt="" />
+                                <div className="nameDiv">
+                                    <p className="authText">{e.author}</p>
+                                    <p className="company">{ e.comapany}</p>
+                                </div>
+                                <div className="videoDIV">
+                                    <p className="authText" style={{marginLeft:'20%'}}>{e.video}</p>
+                                    <p className="company">VIDEOS</p>
+                                </div>
+                            </div>
+                        </div>
+                    ))
+                }
+            </div>
+       </div>
     )
 }

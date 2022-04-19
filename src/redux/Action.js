@@ -1,61 +1,31 @@
 import {
-    ADD_TODO_ERROR,
-    ADD_TODO_LOADING,
-    ADD_TODO_SUCCESS,
-    GET_TODO_ERROR,
-    GET_TODO_LOADING,
-    GET_TODO_SUCCESS,
-    REMOVE_TODO
+
+    GET_DATA_LOADING,
+  GET_DATA_SUCCESS,
+    GET_DATA_ERROR
+    
 } from './ActionTypes';
 
 
- export const addTodoLoading = () => {
+
+export const getDataLoading = () => {
   return {
-    type: ADD_TODO_LOADING,
+    type: GET_DATA_LOADING,
   };
 };
 
 
-export const addTodoSucces = (data) => {
+export const getDataSuccess = (data) => {
   return {
-    type: ADD_TODO_SUCCESS,
+    type: GET_DATA_SUCCESS,
     payload: data,
   };
 };
 
 
-export const addTodoError = (err) => {
+export const getDataError = (err) => {
   return {
-    type: ADD_TODO_ERROR,
-    payload: err,
-  };
-};
-
-export const removeTodo = (id) => {
-  return {
-    type: REMOVE_TODO,
-    id,
-  };
-};
-
-export const getTodoLoading = () => {
-  return {
-    type: GET_TODO_LOADING,
-  };
-};
-
-
-export const getTodoSuccess = (data) => {
-  return {
-    type: GET_TODO_SUCCESS,
-    payload: data,
-  };
-};
-
-
-export const getTodoError = (err) => {
-  return {
-    type: GET_TODO_ERROR,
+    type: GET_DATA_ERROR,
     payload: err,
   };
 };
