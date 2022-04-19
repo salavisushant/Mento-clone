@@ -89,6 +89,9 @@ export const Home = () => {
                     ))
                 }
             </div>
+            <div style={{width: '100%',marginTop: '15%'}}>
+                <img style={{width: '100%'}} src="https://user-images.githubusercontent.com/87421852/164062836-82afd210-1240-4aa4-8959-a8f74bce70f6.png" alt="" />
+            </div>
        </div>
     )
 }
