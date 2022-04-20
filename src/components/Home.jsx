@@ -13,7 +13,9 @@ import {
 
 
 export const Home = () => {
+    const [search, setSearch] = useState("");
 
+    console.log(search);
     const dispatch = useDispatch();
     
     const { todos} = useSelector((state) => ({
@@ -37,6 +39,11 @@ export const Home = () => {
       }
     }
 
+  
+        
+    
+ 
+
 
     return (
         <div>
@@ -46,7 +53,7 @@ export const Home = () => {
                 </div>
                 <div className="rightNavDiv">
                      <form>
-                        <input type="search" placeholder="Topic name, Influences name"/>
+                        <input type="search" onChange={(e)=>setSearch(e.target.value)} placeholder="Topic name, Influences name"/>
                         <button type="submit">Search</button>
                     </form>
                         <button className="btn1">ALL TOPICS</button>
@@ -70,7 +77,14 @@ export const Home = () => {
             <p className="lessTag">ALL LESSONS</p>
             <div className="gridDiv">
                 {
-                    todos.map((e) => (
+                    todos.filter((name) =>{
+                        if (search === "") {
+                            return todos;
+                        } else {
+                            return name.author.toLowerCase().includes(search.toLowerCase());
+                        }
+                    })
+                    .map((e) => (
                         <Link style={{textDecoration: 'none',color: '#000000'}} to={`/posts/${e.id}`}>
                              <div className="infoDiv">
                             <img className="imgDiv" src={e.image} alt="" />
