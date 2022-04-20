@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
 
+
 export const DetailsOfMentor = () => {
      let {id} = useParams();
 
@@ -33,6 +34,16 @@ export const DetailsOfMentor = () => {
                         <button className="btn1">ALL TOPICS</button>
                         <button className="btn1">ABOUT</button>
                         <button className="btn2">LOGIN</button>
+                </div>
+            </div>
+            <div className="mentoDetails">
+                <div>
+                    <img style={{width: '100%', height: '100%'}} src={data.image} alt=""/>
+                </div>
+                <div>
+                    <p className="learn">LEARN FROM</p>
+                    <p className="quote">{data.quote}</p>
+                    <p></p>
                 </div>
             </div>
            

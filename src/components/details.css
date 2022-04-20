@@ -83,3 +83,29 @@ input[type="search"]:focus {
     border-radius:10px;
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
+
+.mentoDetails{
+  border:1px solid #FFFFFF;
+  width:97%;
+  height:500px;
+  margin-top:3%;
+  margin-left: 1%;
+  display:grid;
+  grid-template-columns:40% 60%;
+}
+
+.learn{
+  text-align: center;
+  color: #E9EAEA;
+  font-size:1.2vw;
+  font-weight:700;
+}
+
+.quote{
+  /* width:80%; */
+  margin-left: 15%;
+  margin-right: 15%;
+  color: #E9EAEA;
+  font-weight: 700;
+  font-size:3vw;
+}
