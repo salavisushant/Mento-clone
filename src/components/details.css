@@ -90,6 +90,7 @@ input[type="search"]:focus {
   height:500px;
   margin-top:3%;
   margin-left: 1%;
+  border-radius: 10px;
   display:grid;
   grid-template-columns:40% 60%;
 }
@@ -103,9 +104,29 @@ input[type="search"]:focus {
 
 .quote{
   /* width:80%; */
-  margin-left: 15%;
+  margin-left: 20%;
   margin-right: 15%;
   color: #E9EAEA;
   font-weight: 700;
   font-size:3vw;
 }
+
+.priceLearn{
+  text-align: center;
+    color: #E9EAEA;
+    font-size: 1.5vw;
+    font-weight:600;
+}
+
+.btn3{
+   cursor: pointer;
+    background: rgb(131,58,180);
+    border : none;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    width: 20%;
+    height:40px;
+    margin-left: 40%;
+    color: #E9EAEA;
+    font-size: 1.2vw;
+    border-radius:10px;
+  }

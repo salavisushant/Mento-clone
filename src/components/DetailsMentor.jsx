@@ -38,12 +38,15 @@ export const DetailsOfMentor = () => {
             </div>
             <div className="mentoDetails">
                 <div>
-                    <img style={{width: '100%', height: '100%'}} src={data.image} alt=""/>
+                    <img style={{width: '100%', height: '100%',borderRadius:"10px 0px 0px 10px"}} src={data.image} alt=""/>
                 </div>
                 <div>
                     <p className="learn">LEARN FROM</p>
                     <p className="quote">{data.quote}</p>
-                    <p></p>
+                    <p className="priceLearn">AT ₹1,299 <span style={{color: '#F26437'}}>₹499</span>, YOU GET:</p>
+                    <button className="btn3">ENROLL NOW</button>
+                    <p className="learn">Exclusive Video Lectures on Entrepreneurship 101</p>
+                    <p className="learn">Certificate of Completion signed by Ritesh Agarwal</p>
                 </div>
             </div>
            
