@@ -53,7 +53,7 @@ export const Home = () => {
                 </div>
                 <div className="rightNavDiv">
                      <form>
-                        <input type="search" onChange={(e)=>setSearch(e.target.value)} placeholder="Topic name, Influences name"/>
+                        <input type="search" onChange={(e)=>setSearch(e.target.value)} placeholder="Topic name,Influences name"/>
                         <button type="submit">Search</button>
                     </form>
                         <button className="btn1">ALL TOPICS</button>
