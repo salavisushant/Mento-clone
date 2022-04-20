@@ -1,0 +1,143 @@
+body{
+    background-color: #1A1D24;
+}
+
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.rightNavDiv{
+    margin-left:30%;
+    display: flex;
+}
+
+.btn1{
+    margin-left:10px;
+    width:150px;
+    border:none;
+    background-color:#1A1D24;
+    font-size:15px;
+    font-weight:600;
+    color:#FFFF;
+}
+.btn2{
+    margin-left:10px;
+    width: 100px;
+    border: none;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    font-size:15px;
+    font-weight:600;
+    color:#FFFF;
+    border-radius:10px;
+}
+
+
+
+.vdoDiv{
+    width:100%;
+    margin-top:2%;
+    height:100%;
+    display:grid;
+    grid-template-columns: 35% 60%;
+    gap: 2%;
+}
+
+.iFrame{
+    width:100%;
+    height:100%;
+    border: none;
+    border-radius:20px;
+}
+
+.headName{
+    width:80%;
+    font-size:3.5vw;
+    font-weight:700;
+    color:#FFFFFF;
+}
+
+.scrollName{
+    width:60%;
+    font-size:1.5vw;
+    font-weight:500;
+    color:#FFFFFF;
+}
+
+.lessTag{
+    text-align:center;
+    color:#FFFFFF;
+    font-size:1.5vw;
+    font-weight:700;
+}
+
+.gridDiv{
+    display:grid;
+    grid-template-columns: repeat(3,30%);
+    gap: 2%;
+}
+
+.imgDiv{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+}
+
+
+
+.infoDiv{
+  background-color: #FFFFFF;
+  height:480px;
+  border-radius:20px;
+  margin-left: 2%;
+}
+
+.title1{
+  font-size:1.8vw;
+  font-weight:700;
+  margin-left:5%;
+}
+
+.roundImg{
+  width:50px;
+  height:50px;
+  border-radius:25px;
+  margin-left:1%;
+}
+
+.nameDiv{
+  margin-left:10%;
+  line-height: 1%;
+}
+
+.videoDIV{
+  margin-left:15%;
+    line-height: 1%;
+}
+
+
+
+.company{
+  color: #A2A2A2;
+  font-size:1vw;
+  font-weight:500;
+}
+
+.topicDiv{
+    display:grid;
+    grid-template-columns:20% 80%;
+}
+
+.authText{
+  font-size:1vw;
+  font-weight:500;
+}
+
+.filterName{
+    font-size:1.3vw;
+    font-weight:500;
+    color:#FFFFFF;
+    text-align: center;
+    cursor: pointer;
+}

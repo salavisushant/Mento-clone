@@ -56,7 +56,7 @@ export const Home = () => {
                         <input type="search" onChange={(e)=>setSearch(e.target.value)} placeholder="Topic name,Influences name"/>
                         <button type="submit">Search</button>
                     </form>
-                        <button className="btn1">ALL TOPICS</button>
+                        <Link style={{marginTop:"15px"}} to="/topic"><button className="btn1">ALL TOPICS</button></Link>
                         <button className="btn1">ABOUT</button>
                         <button className="btn2">LOGIN</button>
                 </div>

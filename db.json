@@ -7,7 +7,9 @@
       "author": "RITESH AGARWAL",
       "comapany":"FOUNDER OF OYO ROOMS",
       "video":9,
-      "quote":"The World's Youngest Billionaire About A Career In Entrepreneurship"
+      "quote":"The World's Youngest Billionaire About A Career In Entrepreneurship",
+      "topic":"entrepreneurship"
+      
     },
      {
       "id": 2,
@@ -16,7 +18,8 @@
       "author": "NITESH TIWARI",
       "comapany":"DIRECTOR DANGAL",
       "video":15,
-      "quote":"Nitesh Tiwari About A Career in Film-Making"
+      "quote":"Nitesh Tiwari About A Career in Film-Making",
+      "topic":"film making"
     },
      {
       "id": 3,
@@ -25,7 +28,8 @@
       "author": "BISWAPATI SARKAR",
       "comapany":"DIRECTOR, TVF",
       "video":9,
-      "quote":"Biswapati Sarkar About A Career in Creating Web-Series"
+      "quote":"Biswapati Sarkar About A Career in Creating Web-Series",
+      "topic":"film making"
     },
      {
       "id": 4,
@@ -34,7 +38,8 @@
       "author": "SIDDHARTH ROY KAPUR",
       "comapany":"FILM PRODUCER",
       "video":9,
-      "quote":"Siddharth Roy Kapur About A Career in Film-Production"
+      "quote":"Siddharth Roy Kapur About A Career in Film-Production",
+      "topic":"film making"
     },
      {
       "id": 5,
@@ -43,7 +48,8 @@
       "author": "ALICIA SOUZA",
       "comapany":"ILLUSTRATOR",
       "video":9,
-      "quote":"Alicia Souza About A Career in Freelancing"
+      "quote":"Alicia Souza About A Career in Freelancing",
+      "topic":"illustrator"
     },
      {
       "id": 6,
@@ -52,7 +58,8 @@
       "author": "SANTOSHI SHETTY",
       "comapany":"FASHION BLOGGER",
       "video":9,
-      "quote":"India's Finest Fashion Blogger"
+      "quote":"India's Finest Fashion Blogger",
+      "topic":"fashion blogging"
     },
      {
       "id": 7,
@@ -61,7 +68,8 @@
       "author": "SANJAY MANAKTALA",
       "comapany":"COMEDIAN",
       "video":9,
-      "quote":"Sanjay Manaktala About a Career in Stand-Up Comedy"
+      "quote":"Sanjay Manaktala About a Career in Stand-Up Comedy",
+      "topic": "comedian"
     },
      {
       "id": 8,
@@ -70,7 +78,8 @@
       "author": "ARJUN KAMATH",
       "comapany":"PHOTOGRAPHER",
       "video":9,
-      "quote":"Arjun Kamath About a Career in Photography"
+      "quote":"Arjun Kamath About a Career in Photography",
+      "topic":"Photographer"
     },
      {
       "id": 9,
@@ -79,7 +88,8 @@
       "author": "SAAD KHAN",
       "comapany":"FOUNDER OF IMPROV",
       "video":9,
-      "quote":"India's Leading Improv Comedian"
+      "quote":"India's Leading Improv Comedian",
+      "topic":"comedian"
     },
        {
       "id": 10,
@@ -88,7 +98,8 @@
       "author": "GAURAV VAZ",
       "comapany":"ARTIST MANAGER",
       "video":9,
-      "quote":"India's Leading Artist Manager"
+      "quote":"India's Leading Artist Manager",
+      "topic": "artist management"
     },
        {
       "id": 11,
@@ -97,7 +108,8 @@
       "author": "SALONI KUKREJA",
       "comapany":"FOOD BLOGGER",
       "video":7,
-      "quote":"Saloni Kukreja About A Career in Food-Blogging"
+      "quote":"Saloni Kukreja About A Career in Food-Blogging",
+      "topic":"food blogging"
     },
        {
       "id": 12,
@@ -106,7 +118,8 @@
       "author": "VINEETH VINCENT",
       "comapany":"BEAT BOXER",
       "video":9,
-      "quote":"India's Leading BeatBoxer"
+      "quote":"India's Leading BeatBoxer",
+      "topic":"beat boxing"
     },
        {
       "id": 13,
@@ -115,7 +128,8 @@
       "author": "DARIUS SUNAWALA",
       "comapany":"RADIO JOCKEY",
       "video":8,
-      "quote":"India's Finest RJ About a Career in Radio"
+      "quote":"India's Finest RJ About a Career in Radio",
+      "topic":"radio jockey"
     },
        {
       "id": 14,
@@ -124,7 +138,8 @@
       "author": "RAKSHIT KEJRIWAL",
       "comapany":"ENTREPRENEUR",
       "video":8,
-      "quote":"Rakshit Kejriwal About a Career in Start-Ups"
+      "quote":"Rakshit Kejriwal About a Career in Start-Ups",
+      "topic":"entrepreneurship"
     },
        {
       "id": 15,
@@ -133,7 +148,8 @@
       "author": "SAMEER/YASH",
       "comapany":"THE BOMBAY CANTEEN",
       "video":8,
-      "quote":"Founders of India's Number One Restaurant About A Career in the Restaurant Business"
+      "quote":"Founders of India's Number One Restaurant About A Career in the Restaurant Business",
+      "topic":"entrepreneurship"
     }
   ]
 }
