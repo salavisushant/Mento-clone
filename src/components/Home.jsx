@@ -86,7 +86,7 @@ export const Home = () => {
                     })
                     .map((e) => (
                         <Link style={{textDecoration: 'none',color: '#000000'}} to={`/posts/${e.id}`}>
-                             <div className="infoDiv">
+                             <div className="infoDiv" key={e.id}>
                             <img className="imgDiv" src={e.image} alt="" />
                             <p className="title1">{e.title}</p>
                             <div style={{display:'flex'}}>
