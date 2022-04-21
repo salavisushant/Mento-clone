@@ -87,7 +87,7 @@ input[type="search"]:focus {
 .mentoDetails{
   border:1px solid #FFFFFF;
   width:97%;
-  height:500px;
+  height:100%;
   margin-top:3%;
   margin-left: 1%;
   border-radius: 10px;

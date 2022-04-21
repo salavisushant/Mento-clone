@@ -5,7 +5,7 @@ import {Link} from "react-router-dom"
 
 
 export const DetailsOfMentor = () => {
-     let {id} = useParams();
+    let {id} = useParams();
 
     const [data, setData] = useState({});
     
@@ -31,7 +31,7 @@ export const DetailsOfMentor = () => {
                         <input type="search" placeholder="Topic name, Influences name"/>
                         <button type="submit">Search</button>
                     </form>
-                        <button className="btn1">ALL TOPICS</button>
+                       <Link to="/topic"> <button style={{marginTop:"10%"}} className="btn1">ALL TOPICS</button></Link>
                         <button className="btn1">ABOUT</button>
                         <button className="btn2">LOGIN</button>
                 </div>
@@ -45,8 +45,8 @@ export const DetailsOfMentor = () => {
                     <p className="quote">{data.quote}</p>
                     <p className="priceLearn">AT ₹1,299 <span style={{color: '#F26437'}}>₹499</span>, YOU GET:</p>
                     <button className="btn3">ENROLL NOW</button>
-                    <p className="learn">Exclusive Video Lectures on Entrepreneurship 101</p>
-                    <p className="learn">Certificate of Completion signed by Ritesh Agarwal</p>
+                    <p className="learn">Exclusive Video Lectures on { data.title}</p>
+                    <p className="learn">Certificate of Completion signed by {data.author} </p>
                 </div>
             </div>
            

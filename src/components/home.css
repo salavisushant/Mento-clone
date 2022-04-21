@@ -181,3 +181,20 @@ input[type="search"]:focus {
   font-size:1.1vw;
   font-weight:500;
 }
+
+.modal-Div{
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.welcome{
+  text-align: center;
+  font-size: 1.7vw;
+  font-weight:600;
+}
+.log{
+  text-align: center;
+  font-size: 1.3vw;
+  font-weight:600;
+  margin-top:10%;
+}
