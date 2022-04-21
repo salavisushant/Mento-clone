@@ -3,7 +3,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom"
 import "./home.css";
 import { Button, Modal,Carousel } from "react-bootstrap";
- import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 import {
@@ -45,6 +46,7 @@ export const Home = () => {
             dispatch(getDataError(err));
       }
     }
+
 
   
         
@@ -148,8 +150,7 @@ export const Home = () => {
                                 alt="Third slide"
                                 />
                             </Carousel.Item>
-                        </Carousel>
-                          <Carousel.Item interval={1000}>
+                             <Carousel.Item interval={1000}>
                                 <img
                                 className="d-block w-100"
                                 style={{width: "100%", height: "300px"}}
@@ -167,13 +168,15 @@ export const Home = () => {
                                 />
                                 
                             </Carousel.Item>
+                        </Carousel>
+                         
                     </div>
                     <div>
                         <div style={{marginLeft:"10%",marginTop:"10%"}}>
                              <p className="welcome">Welcome Back!</p>
-                        <p className="log">LOG IN WITH</p>
+                        <p className="log">LOG IN WITH  </p>
                         <div style={{display: 'flex',marginLeft: '15%'}}>
-                            <Button style={{backgroundColor:"#3B5997"}} size="lg">FACEBOOK</Button>
+                                <Button style={{ backgroundColor: "#3B5997" }} size="lg">FACEBOOK</Button>
                             <Button style={{backgroundColor:"red",marginLeft: '10%'}} size="lg">GOOGLE</Button>
                         </div>
                        </div>
