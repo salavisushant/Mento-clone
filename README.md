@@ -1,5 +1,6 @@
 # Mento Clone
 
+## Deployed Link - https://mento-clone.vercel.app/
 
 ## Landing page 
 
