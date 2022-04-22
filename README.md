@@ -3,7 +3,7 @@
 
 ## Landing page 
 
-1. Landing page search functionality 
+1. Landing page with search functionality 
 
 <img width="960" alt="mento landing page" src="https://user-images.githubusercontent.com/87421852/164461698-606064b7-082f-48ce-a2a8-ff53ab6b04da.png">
 
