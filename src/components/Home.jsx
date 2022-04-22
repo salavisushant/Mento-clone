@@ -38,7 +38,7 @@ export const Home = () => {
     const showData = async() => {
         try{
             dispatch(getDataLoading());
-            const data = await fetch(`http://localhost:3001/posts`)
+            const data = await fetch(`https://mento-clone.herokuapp.com/posts`)
             .then((d) => d.json());
             dispatch(getDataSuccess(data));
             console.log(data);

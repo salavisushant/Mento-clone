@@ -14,7 +14,7 @@ export const DetailsOfMentor = () => {
     },[]);
 
     const getData = async () => {
-        let res = await fetch(`http://localhost:3001/posts/${id}`);
+        let res = await fetch(`https://mento-clone.herokuapp.com/posts${id}`);
         let d = await res.json();
         setData(d);
         console.log(d);

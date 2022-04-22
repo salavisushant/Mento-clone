@@ -17,7 +17,7 @@ export const Topic = () => {
 
 
     const showData = async() => {
-        let res = await fetch(`http://localhost:3001/posts`);
+        let res = await fetch(`https://mento-clone.herokuapp.com/posts`);
         let data = await res.json();
         console.log(data);
         setList(data);
