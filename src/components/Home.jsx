@@ -67,7 +67,7 @@ export const Home = () => {
                         <button type="submit">Search</button>
                     </form>
                         <Link style={{marginTop:"15px"}} to="/topic"><button className="btn1">ALL TOPICS</button></Link>
-                        <button className="btn1">ABOUT</button>
+                        <Link style={{marginTop:"15px"}} to="/about" ><button className="btn1">ABOUT</button></Link>
                         <button className="btn2"  onClick={handleShow} >LOGIN</button>
                 </div>
             </div>

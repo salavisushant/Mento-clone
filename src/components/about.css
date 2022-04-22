@@ -1,7 +1,3 @@
-body{
-    background-color: #1A1D24;
-}
-
 *{
   font-family: 'Open Sans', sans-serif;
 }
@@ -81,115 +77,27 @@ input[type="search"]:focus {
     border-radius:10px;
 }
 
-
-
-.vdoDiv{
-    width:100%;
-    margin-top:2%;
-    height:500px;
-    display:grid;
-    grid-template-columns: 35% 60%;
-    gap: 2%;
+.btn1:hover{
+    cursor: pointer;
+    background: rgb(131,58,180);
+    border-radius:10px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
 }
 
-.iFrame{
-    width:100%;
-    height:100%;
-    border: none;
-    border-radius:20px;
+
+.about{
+    width: 40%;
+    margin-left: 10%;
+    margin-top:5%;
 }
 
-.headName{
-    width:80%;
-    font-size:3.5vw;
-    font-weight:700;
-    color:#FFFFFF;
-}
-
-.scrollName{
-    width:60%;
-    font-size:1.5vw;
-    font-weight:500;
-    color:#FFFFFF;
-}
-
-.lessTag{
-    text-align:center;
-    color:#FFFFFF;
-    font-size:1.5vw;
+.tag1{
+    font-size:2.7vw;
+    color:#E9EAEA;
     font-weight:700;
 }
 
-.gridDiv{
-    display:grid;
-    grid-template-columns: repeat(3,31.5%);
-    gap: 3%;
-    margin-left: 5%;
-  
-}
-
-.imgDiv{
-    width: 100%;
-    height: 300px;
-    border-radius: 20px 20px 0 0;
-}
-
-
-
-.infoDiv{
-  background-color: #FFFFFF;
-  height:480px;
-  border-radius:20px;
-  margin-left: 3%;
-}
-
-.title1{
-  font-size:2vw;
-  font-weight:700;
-  margin-left:5%;
-}
-
-.roundImg{
-  width:50px;
-  height:50px;
-  border-radius:25px;
-  margin-left:1%;
-}
-
-.nameDiv{
-  margin-left:10%;
-  line-height: 1%;
-}
-
-.videoDIV{
-  margin-left:15%;
-    line-height: 1%;
-}
-
-.authText{
-  font-size:1.3vw;
-  font-weight:700;
-}
-
-.company{
-  color: #A2A2A2;
-  font-size:1.1vw;
-  font-weight:500;
-}
-
-.modal-Div{
-  display: grid;
-  grid-template-columns: 40% 60%;
-}
-
-.welcome{
-  text-align: center;
-  font-size: 1.7vw;
-  font-weight:600;
-}
-.log{
-  text-align: center;
-  font-size: 1.3vw;
-  font-weight:600;
-  margin-top:10%;
+.tag2{
+   font-size:1.1vw;
+    color:#E9EAEA; 
 }
