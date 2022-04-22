@@ -10,13 +10,14 @@ import "./topic.css";
 
 export const Topic = () => {
     const [list, setList] = useState([]);
+  
 
     useEffect(() => {
         showData()
-    },[])
+    }, [])
 
 
-    const showData = async() => {
+    const showData = async () => {
         let res = await fetch(`https://mento-clone.herokuapp.com/posts`);
         let data = await res.json();
         console.log(data);
@@ -24,14 +25,17 @@ export const Topic = () => {
     }
 
     const handleCheckEntrepreneur = () => {
-        const rows = [...list].filter((row) => row.topic === "entrepreneurship");
-        setList(rows) 
-    };
+        const rows = [...list].filter((data) => {
+            return data.topic === "entrepreneurship";
+        });
+        setList(rows)
+    }
 
      const handleCheckFilm = () => {
         const rows = [...list].filter((row) => row.topic === "film making");
         setList(rows) 
     };
+    
      const handleCheckIllustrar = () => {
         const rows = [...list].filter((row) => row.topic === "illustrator");
         setList(rows) 
@@ -53,7 +57,7 @@ export const Topic = () => {
     };
 
     const handleCheckRadio = () => {
-        const rows = [...list].filter((row) => row.topic === "radio jockey");
+        const rows = [...list].filter((row) => row.topic === "radio jockey" );
         setList(rows) 
     };
 
