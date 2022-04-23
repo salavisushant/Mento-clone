@@ -20,7 +20,7 @@ input[type="search"] {
   margin: 0;
   padding: 7px 8px;
   font-size: 18px;
-  width:300px;
+  width:100%;
   color: inherit;
   border: 1px solid transparent;
   border-radius: inherit;
@@ -52,16 +52,16 @@ input[type="search"]:focus {
   box-shadow: 0 0 3px 0 #1183d6;
   border-color: #1183d6;
   outline: none;
-}
+} 
 
 
 .rightNavDiv{
-    margin-left:30%;
+    margin-left:5%;
     display: flex;
 }
 
 .btn1{
-    margin-left:10px;
+    margin-left:5px;
     width:150px;
     border:none;
     background-color:#1A1D24;
@@ -70,7 +70,7 @@ input[type="search"]:focus {
     color:#FFFF;
 }
 .btn2{
-    margin-left:10px;
+    margin-left:1px;
     width: 100px;
     border: none;
     background: rgb(131,58,180);
@@ -84,12 +84,12 @@ input[type="search"]:focus {
 
 
 .vdoDiv{
-    width:100%;
-    margin-top:2%;
-    height:500px;
-    display:grid;
-    grid-template-columns: 35% 60%;
-    gap: 2%;
+  width:100%;
+  margin-top:2%;
+  height:500px;
+  display:grid;
+  grid-template-columns: 35% 60%;
+  gap: 2%;
 }
 
 .iFrame{
@@ -100,17 +100,17 @@ input[type="search"]:focus {
 }
 
 .headName{
-    width:80%;
-    font-size:3.5vw;
-    font-weight:700;
-    color:#FFFFFF;
+  width:80%;
+  font-size:3.5vw;
+  font-weight:700;
+  color:#FFFFFF;
 }
 
 .scrollName{
-    width:60%;
-    font-size:1.5vw;
-    font-weight:500;
-    color:#FFFFFF;
+  width:60%;
+  font-size:1.5vw;
+  font-weight:500;
+  color:#FFFFFF;
 }
 
 .lessTag{
@@ -195,4 +195,11 @@ input[type="search"]:focus {
   font-size: 1.3vw;
   font-weight:600;
   margin-top:10%;
+}
+
+.namUser{
+  font-size: 1.2vw;
+  color: #E9EAEA;
+  margin-left:10%;
+  font-weight: 500;
 }

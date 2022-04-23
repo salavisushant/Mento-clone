@@ -73,3 +73,10 @@ input[type="search"]:focus {
     color:#FFFF;
     border-radius:10px;
 }
+
+.namUser{
+  font-size: 1.2vw;
+  color: #E9EAEA;
+  margin-left:10%;
+  font-weight: 500;
+}

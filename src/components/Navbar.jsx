@@ -9,12 +9,14 @@ export const Navbar = () => {
       const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+    const handleShow = () => setShow(true);
+       let name = localStorage.getItem("userData")
     return (
         <div>
             <div style={{display: 'flex',marginTop:'1%'}}>
-                <div>
+                <div style={{display: 'flex'}}>
                   <Link to="/">  <img style={{height:'50px',marginLeft:'10px'}} src="https://www.mento.co.in/assets/logo-e65920660caecc5be1d6b1757278bcb5745b83cfbf08d0dcdc5cd30bead06334.svg" alt=""/></Link>
+                     <p className="namUser">{ name}</p>
                 </div>
                 <div className="rightNavDiv">
                      <form>

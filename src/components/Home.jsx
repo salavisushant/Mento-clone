@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from "react-redux";
-import { Link } from "react-router-dom"
+import { Link} from "react-router-dom"
 import "./home.css";
 import { Button, Modal,Carousel } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { GoogleLogin } from "react-google-login";
 
 
 
@@ -34,6 +35,18 @@ export const Home = () => {
         showData()
     },[])
 
+    const responseGoogle = (response) => {
+    let { email, name, googleId, imageUrl } = response.profileObj;
+    let personDetail = {
+      email,
+      name,
+      googleId,
+      imageUrl
+    };
+    console.log(personDetail);
+        localStorage.setItem("userData", personDetail.name);
+        localStorage.setItem("userImage", personDetail.imageUrl)
+  };
 
     const showData = async() => {
         try{
@@ -48,6 +61,7 @@ export const Home = () => {
     }
 
 
+   let name = localStorage.getItem("userData")
   
         
     
@@ -57,9 +71,10 @@ export const Home = () => {
     return (
         <div>
          
-             <div style={{display: 'flex',marginTop:'1%'}}>
-                <div>
+             <div style={{display: 'flex',marginTop:'1%',width:"100%"}}>
+                <div style={{display: 'flex'}}>
                     <img style={{height:'50px',marginLeft:'10px'}} src="https://www.mento.co.in/assets/logo-e65920660caecc5be1d6b1757278bcb5745b83cfbf08d0dcdc5cd30bead06334.svg" alt=""/>
+                    <p className="namUser">{ name}</p>
                 </div>
                 <div className="rightNavDiv">
                      <form>
@@ -176,9 +191,18 @@ export const Home = () => {
                              <p className="welcome">Welcome Back!</p>
                         <p className="log">LOG IN WITH  </p>
                         <div style={{display: 'flex',marginLeft: '15%'}}>
-                                <Button style={{ backgroundColor: "#3B5997" }} size="lg">FACEBOOK</Button>
-                            <Button style={{backgroundColor:"red",marginLeft: '10%'}} size="lg">GOOGLE</Button>
-                        </div>
+                                <Button style={{ backgroundColor: "#3B5997",marginRight:"5%" }} size="lg">FACEBOOK</Button>
+                          
+                                <GoogleLogin
+
+                                className="signin-btn"
+                                clientId="982316181452-h2um7ud51f9e70s6b3obb6bo003bugjs.apps.googleusercontent.com"
+                                buttonText="Sign in with Google"
+                                onSuccess={responseGoogle}
+                                onFailure={responseGoogle}
+                                cookiePolicy={"single_host_origin"}
+                            />
+                            </div>
                        </div>
                     </div>
         </Modal.Body>
