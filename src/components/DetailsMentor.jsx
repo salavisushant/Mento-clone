@@ -2,6 +2,7 @@ import "./details.css"
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import {Link} from "react-router-dom"
+import { Navbar } from "./Navbar";
 
 
 export const DetailsOfMentor = () => {
@@ -22,20 +23,7 @@ export const DetailsOfMentor = () => {
   
     return (
         <div>
-             <div style={{display: 'flex',marginTop:'1%'}}>
-                <div>
-                  <Link to="/">  <img style={{height:'50px',marginLeft:'10px'}} src="https://www.mento.co.in/assets/logo-e65920660caecc5be1d6b1757278bcb5745b83cfbf08d0dcdc5cd30bead06334.svg" alt=""/></Link>
-                </div>
-                <div className="rightNavDiv">
-                     <form>
-                        <input type="search" placeholder="Topic name, Influences name"/>
-                        <button type="submit">Search</button>
-                    </form>
-                       <Link to="/topic"> <button style={{marginTop:"10%"}} className="btn1">ALL TOPICS</button></Link>
-                        <button className="btn1">ABOUT</button>
-                        <button className="btn2">LOGIN</button>
-                </div>
-            </div>
+             <Navbar/>
             <div className="mentoDetails">
                 <div>
                     <img style={{width: '100%', height: '100%',borderRadius:"10px 0px 0px 10px"}} src={data.image} alt=""/>
