@@ -1,25 +1,13 @@
 import { Link } from 'react-router-dom';
 import "./about.css"
+import { Navbar } from './Navbar';
 
 export const About = () => {
     
 
     return (
         <div>
-              <div style={{display: 'flex',marginTop:'1%'}}>
-                <div>
-                    <Link to="/"><img style={{height:'50px',marginLeft:'10px'}} src="https://www.mento.co.in/assets/logo-e65920660caecc5be1d6b1757278bcb5745b83cfbf08d0dcdc5cd30bead06334.svg" alt=""/></Link>
-                </div>
-                <div className="rightNavDiv">
-                     <form>
-                        <input type="search" placeholder="Topic name,Influences name"/>
-                        <button type="submit">Search</button>
-                    </form>
-                        <button className="btn1">ALL TOPICS</button>
-                        <button className="btn1">ABOUT</button>
-                        <button className="btn2">LOGIN</button>
-                </div>
-            </div>
+              <Navbar/>
             <div className="about">
                 <p className="tag1">Ever wondered what you really like doing?What is your true calling?</p>
                 <p className="tag2">We often end up in careers or industries because we are either confused or clueless about what we want to do in life. Also, we don't actually have much information about the numerous career options available to us.</p>
