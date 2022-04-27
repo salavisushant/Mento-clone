@@ -196,7 +196,7 @@ export const Home = () => {
                                 <GoogleLogin
 
                                 className="signin-btn"
-                                clientId="982316181452-h2um7ud51f9e70s6b3obb6bo003bugjs.apps.googleusercontent.com"
+                                clientId="404060196444-crujn9gbl10p29mqbsjhhifja8djv02u.apps.googleusercontent.com"
                                 buttonText="Sign in with Google"
                                 onSuccess={responseGoogle}
                                 onFailure={responseGoogle}
